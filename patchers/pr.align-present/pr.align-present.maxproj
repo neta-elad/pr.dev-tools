@@ -2,7 +2,7 @@
 	"name" : "pr.align-present",
 	"version" : 1,
 	"creationdate" : 3696062136,
-	"modificationdate" : 3696062247,
+	"modificationdate" : 3696062962,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -19,7 +19,7 @@
 		}
 ,
 		"code" : 		{
-			"align-present.js" : 			{
+			"pr.align-present.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}

@@ -43,14 +43,15 @@
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 33.0, 128.0, 102.0, 22.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 33.0, 128.0, 115.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "align-present.js",
+						"filename" : "pr.align-present.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js align-present.js"
+					"text" : "js pr.align-present.js"
 				}
 
 			}
@@ -115,7 +116,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "align-present.js",
+				"name" : "pr.align-present.js",
 				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/pr.align-present/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
