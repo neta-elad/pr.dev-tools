@@ -10,6 +10,10 @@ This package includes various utilities for developing Max for Live devices:
 1. pr.align-present
 
     Utility abstraction to align object in Presentation mode in round coordinates.
+1. pr.live.colors
+
+    Utility abstraction to color UI objects according to Ableton Live's theme.
+    Currently only supports `[live.comment]` objects.
 
 ## Installation
 The easiest to install this package is simply cloning it into your Max packages directory:
