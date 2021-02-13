@@ -5,7 +5,6 @@ function bang() {
 	var parent = this.patcher.parentpatcher;
 	
 	if (parent === null) {
-		error('Must be included in a sub-patcher');
 		return;
 	}
 	parent.applyif(_round, _isPresentation);
