@@ -7,6 +7,9 @@ This package includes various utilities for developing Max for Live devices:
     ```max
     [mc.live.param~ @chans 4 @values attack1 attack2 attack3 attack4]
     ```
+1. pr.align-present
+
+    Utility abstraction to align object in Presentation mode in round coordinates.
 
 ## Installation
 The easiest to install this package is simply cloning it into your Max packages directory:
