@@ -14,6 +14,13 @@ This package includes various utilities for developing Max for Live devices:
 
     Utility abstraction to color UI objects according to Ableton Live's theme.
     Currently only supports `[live.comment]` objects.
+1. pr.bpatcher.resize
+
+    Utility abstraction to set the initial size of a patch, when embedded using a bpatcher.
+    Inside the patch intended to be used as a bpatcher simply add
+    ```max
+    [pr.bpatcher.resize <desired-width> <desired-height>]
+    ```
 
 ## Installation
 The easiest to install this package is simply cloning it into your Max packages directory:
