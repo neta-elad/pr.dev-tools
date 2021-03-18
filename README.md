@@ -5,7 +5,7 @@ This package includes various utilities for developing Max for Live devices:
 
     A multichannel version of live.param~:
     ```max
-    [mc.live.param~ @chans 4 @values attack1 attack2 attack3 attack4]
+    [mc.live.param~ 4 attack]
     ```
 1. pr.align-present
 
