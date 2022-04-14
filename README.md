@@ -21,6 +21,9 @@ This package includes various utilities for developing Max for Live devices:
     ```max
     [pr.bpatcher.resize <desired-width> <desired-height>]
     ```
+1. pr.xfade~
+    
+    Utility abstraction to cross-fade two (multichannel) signals.
 
 ## Installation
 The easiest to install this package is simply cloning it into your Max packages directory:
