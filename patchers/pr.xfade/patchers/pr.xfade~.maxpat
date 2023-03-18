@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 471.0, 183.0, 150.0, 547.0 ],
+		"rect" : [ 471.0, 183.0, 497.0, 547.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -168,7 +168,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 217.5, 143.0, 142.0, 22.0 ],
+					"patching_rect" : [ 217.5, 80.0, 142.0, 22.0 ],
 					"text" : "rampsmooth~ 1000 1000"
 				}
 
@@ -180,7 +180,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 217.5, 93.0, 128.0, 22.0 ],
+					"patching_rect" : [ 217.5, 113.0, 128.0, 22.0 ],
 					"text" : "scale~ -50. 50. 0. 0.25"
 				}
 
@@ -202,15 +202,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-74", 0 ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
-					"source" : [ "obj-74", 0 ]
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -218,7 +211,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"order" : 0,
-					"source" : [ "obj-78", 0 ]
+					"source" : [ "obj-74", 0 ]
 				}
 
 			}
@@ -226,6 +219,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-89", 1 ],
 					"order" : 1,
+					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
 					"source" : [ "obj-78", 0 ]
 				}
 
