@@ -4,13 +4,20 @@ outlets = 0;
 function bang() {
 	post(max.frontpatcher);
 	post(max.frontpatcher.filepath);
-	// var parent = this.patcher.parentpatcher;
+	post(max.frontpatcher.wind.next);
+	post(max.frontpatcher.wind.next.filepath);
+
+	if (max.frontpatcher.wind.next === null) {
+		return; // error
+	}
 	
-	// if (parent === null) {
-	// 	return;
-	// }
-	//parent.applyif(_round, _isPresentation);
+	var patcher = max.frontpatcher.wind.next.assoc;
+
+	if (patcher === null) {
+		return; // error
+	}
 	
+	patcher.applyif(_round, _isPresentation);
 }
 
 _round.local = 1;
